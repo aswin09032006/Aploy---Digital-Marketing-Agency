@@ -1,0 +1,133 @@
+.about-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about-page-hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin-top: 50px;
+    gap: 50px;
+    margin-bottom: 0;
+}
+
+.about-page-hero-top,
+.about-page-hero-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    text-align: left;
+}
+
+.about-page-hero-bottom {
+    align-items: self-end;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.about-page-hero-top h5,
+.about-page-hero-bottom h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    color: #3B3663;
+    margin-bottom: 10px;
+}
+
+.about-page-hero-top h2 {
+    font-size: 4rem;
+    max-width: 150px;
+    margin-bottom: 30px;
+    color: #0F110F;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.about-page-hero-top p,
+.about-page-hero-bottom p {
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    color: #696687;
+    max-width: 400px;
+}
+
+.about-page-hero-bg-elements {
+    z-index: -2;
+}
+
+.about-page-hero-circle-blue,
+.about-page-hero-circle-sandal {
+    position: absolute;
+    top: 100px;
+    right: -50px;
+    width: 300px;
+    height: 300px;
+    filter: blur(100px);
+    border-radius: 50%;
+    background-color: #0062ffaf;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.about-page-hero-circle-sandal {
+    top: 50px;
+    left: -50px;
+    background-color: #ff9f0fc5;
+}
+
+.p1 {
+    position: absolute;
+    top: 100px;
+    right: 500px;
+    width: 250px;
+}
+
+.p2 {
+    position: absolute;
+    top: 280px;
+    right: 250px;
+    width: 200px;
+}
+
+.p3 {
+    position: absolute;
+    bottom: 100px;
+    left: 180px;
+    width: 200px;
+}
+
+.scratch {
+    position: absolute;
+    top: 150px;
+    left: 360px;
+    width: 30px;
+}
+
+.bulb {
+    position: absolute;
+    bottom: 190px;
+    left: 420px;
+    width: 50px;
+}
+
+.rocket {
+    position: absolute;
+    top: 130px;
+    right: 150px;
+    width: 60px;
+    rotate: 20deg;
+}
+
+.dotted_path {
+    position: absolute;
+    bottom: 100px;
+    left: 430px;
+    width: 700px;
+    height: 500px;
+}

@@ -7,7 +7,7 @@
 }
 
 .about-page-hero-section {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     width: 1200px;
@@ -16,48 +16,24 @@
     margin-bottom: 0;
 }
 
-.about-page-hero-top,
-.about-page-hero-bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: self-start;
-    text-align: left;
-}
-
-.about-page-hero-bottom {
-    align-items: self-end;
-    text-align: right;
-    margin-top: 50px;
-}
-
-.about-page-hero-top h5,
-.about-page-hero-bottom h5 {
-    font-size: 1.1rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-family: 'Inter', sans-serif;
-    color: #3B3663;
-    margin-bottom: 10px;
-}
-
-.about-page-hero-top h2 {
+.about-page-hero-title {
     font-size: 4rem;
-    max-width: 150px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     color: #0F110F;
     font-family: 'Inter', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
 }
 
-.about-page-hero-top p,
-.about-page-hero-bottom p {
-    font-size: 1.1rem;
+.about-page-hero-text {
+    font-size: 1.2rem;
     font-family: 'Rubik', sans-serif;
+    font-weight: 400;
     color: #696687;
     max-width: 400px;
 }
 
-.about-page-hero-bg-elements {
+.about-page-hero-bg-elements,
+.team-members-container2-bg-elements {
     z-index: -2;
 }
 
@@ -81,53 +57,135 @@
     background-color: #ff9f0fc5;
 }
 
-.p1 {
+.about-page-bulb {
     position: absolute;
-    top: 100px;
-    right: 500px;
-    width: 250px;
-}
-
-.p2 {
-    position: absolute;
-    top: 280px;
-    right: 250px;
-    width: 200px;
-}
-
-.p3 {
-    position: absolute;
-    bottom: 100px;
-    left: 180px;
-    width: 200px;
-}
-
-.scratch {
-    position: absolute;
-    top: 150px;
-    left: 360px;
-    width: 30px;
-}
-
-.bulb {
-    position: absolute;
-    bottom: 190px;
+    bottom: 170px;
     left: 420px;
     width: 50px;
 }
 
-.rocket {
+.about-page-rocket {
     position: absolute;
     top: 130px;
     right: 150px;
     width: 60px;
-    rotate: 20deg;
+    rotate: -140deg;
 }
 
-.dotted_path {
+.about-page-dotted_path {
     position: absolute;
-    bottom: 100px;
+    bottom: 80px;
     left: 430px;
     width: 700px;
     height: 500px;
+}
+
+.about-page-scratch {
+    position: absolute;
+    top: 150px;
+    left: 420px;
+    width: 30px;
+}
+
+.about-page-team-members-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    gap: 60px;
+}
+
+.team-members-container1,
+.team-members-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+.team-members-container1 {
+    background-image: url('../../assets/about-bg.png');
+    width: 100vw;
+    filter: grayscale(100%);
+    color: #fff;
+    padding: 50px 0;
+    object-fit: contain;
+}
+
+.team-members-container2 {
+    position: relative;
+    color: #524c8a;
+}
+
+.team-members-container1 h1,
+.team-members-container2 h1 {
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+.team-member-1 img,
+.team-member-2 img,
+.team-member-3 img,
+.team-member-4 img{
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.team-member-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.team-member-name {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.team-member-position {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.team-member-description {
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 500px;
+}
+
+.team-member-1,
+.team-member-2,
+.team-member-3,
+.team-member-4 {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.about-page-team-container-circle-blue,
+.about-page-team-container-circle-sandal {
+    position: absolute;
+    top: 100px;
+    right: -400px;
+    width: 300px;
+    height: 300px;
+    filter: blur(100px);
+    border-radius: 50%;
+    background-color: #0062ffaf;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.about-page-team-container-circle-sandal {
+    top: 500px;
+    left: -400px;
+    background-color: #ff9f0fc5;
 }

@@ -58,7 +58,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div className="        ">
+            <div className="footer-footer">
                 <p>&copy; 2023 Aploy Global. All rights reserved.</p>
             </div>
         </div>

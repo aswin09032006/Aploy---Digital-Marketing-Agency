@@ -34,28 +34,3 @@
     color: #007BFF;
 }
 
-@media screen and (max-width: 768px) {
-    .navbar-container {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .navbar-links ul {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .navbar-links li {
-        margin: 10px 0;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .navbar-logo img {
-        height: 40px;
-    }
-
-    .navbar-links li {
-        font-size: 14px;
-    }
-}

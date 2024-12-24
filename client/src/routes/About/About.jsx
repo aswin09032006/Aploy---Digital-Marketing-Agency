@@ -53,7 +53,7 @@ const About = () => {
                         <img src={p1} alt="" className=''/>
                         <div className="team-member-details">
                             <h2 className="team-member-name">Vivek Kumar</h2>
-                            <p className="team-member-position">CTO (Chief Technical Officer)</p>
+                            <p className="team-member-position">CTO & Managing Partner</p>
                             <p className="team-member-description">
                             I have over 5 years of experience in teaching computer science and expertise in digital marketing. As a digital strategist and educator, I have developed a deep understanding of business development and online growth strategies. My knowledge drives the vision of my consulting firm, ensuring businesses achieve success through tailored solutions and innovative approaches.
                             </p>
